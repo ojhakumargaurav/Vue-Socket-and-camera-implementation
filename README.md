@@ -1,4 +1,11 @@
-# video_streaming_frontend
+# This File has code to implement web socket using socket.io in Vue.js
+
+# Running app inside docker :
+docker build . -t <app_name>
+docker run -d -p <port_no>:8080 <app_name>
+
+backend in flask with socket server can be found at :
+https://github.com/ojhakumargaurav/Socket_implementation_backend
 
 ## Project setup
 ```
